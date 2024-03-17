@@ -6,11 +6,10 @@ aws_secret_access_key = 'YOUR_SECRET_ACCESS_KEY'
 region = 'ap-south-1'
 
 # EC2 instance parameters
-instance_type = 't2.micro'
+instance_type = 't3.medium'
 ami_id = 'AMI_ID_OF_YOUR_CHOICE'
 key_name = 'YOUR_KEY_PAIR_NAME'
 security_group_ids = ['YOUR_SECURITY_GROUP_ID']
-
 # Create EC2 client
 ec2 = boto3.client('ec2', aws_access_key_id=aws_access_key_id,
                    aws_secret_access_key=aws_secret_access_key, region_name=region)
