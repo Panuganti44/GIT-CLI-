@@ -3,7 +3,7 @@ import boto3
 # AWS credentials and region
 aws_access_key_id = 'YOUR_ACCESS_KEY_ID'
 aws_secret_access_key = 'YOUR_SECRET_ACCESS_KEY'
-region = 'us-east-1'
+region = 'ap-south-1'
 
 # EC2 instance parameters
 instance_type = 't2.micro'
